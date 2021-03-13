@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Applications/Chromium.app/Contents/MacOS/Chromium  --app="https://www.google.com/calendar/render" --user-data-dir="/Applications/GCal.app/Contents/Profile" "$@"

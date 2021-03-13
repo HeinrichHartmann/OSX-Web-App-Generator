@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Applications/Chromium.app/Contents/MacOS/Chromium  --app="https://kunde.comdirect.de/lp/wt/login?execution=e1s1" --user-data-dir="/Applications/ComDirekt-Gemk.app/Contents/Profile" "$@"
