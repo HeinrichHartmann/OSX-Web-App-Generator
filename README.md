@@ -1,20 +1,27 @@
-# OSX Stand-Alone Web Application Generator & Collection
+# OSX Web-App Generator
 
 ## Usage Example
 
 ```
-./makeapp.sh
-What should the Application be called (no spaces allowed e.g. GCal)?
-> ComDirekt
-What is the url (e.g. https://www.google.com/calendar/render)?
-> https://kunde.comdirect.de/lp/wt/login?execution=e1s1
-What is the path to the icon (e.g. /Users/username/Desktop/icon.png)?
-> comdirekt.ico
+; ./makeapp.sh
+
+What should the Application be called?
+> GCal
+
+What is the url?
+> https://www.google.com/calendar/render
+
+What is the path to the icon?
+> gcal.ico
 ```
 
-Creates ComDirekt Application in local directory
+Creates GCal Application in local directory
 
 ```
-./install.sh ComDirekt
+./install.sh GCal
 ```
-Installs ComDirek Application to /Applications
+Installs ComDirekt Application to /Applications
+
+## Credits
+
+Based on https://gist.github.com/sanfordredlich/4568525
